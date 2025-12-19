@@ -1,0 +1,7 @@
+transaction_id,merchant,amount,country,hour,device,platform
+1,Amazon,120,TH,14,Mobile,App
+2,Starbucks,5,TH,9,Mobile,App
+3,Netflix,15,TH,21,Laptop,Web
+4,LocalMart,8,TH,18,POS,POS
+5,US Parking,60,US,2,Unknown,Web
+6,Online Casino,200,PH,3,Desktop,Web
