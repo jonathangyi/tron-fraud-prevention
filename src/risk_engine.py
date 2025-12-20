@@ -6,6 +6,8 @@ def calculate_risk(transaction, user_profile):
 
     if transaction["merchant"] not in user_profile["merchants"]:
         risk += 25
+    else:
+        risk -= 15  # trusted merchant bonus
 
     if transaction["amount"] > user_profile["avg_amount"] * 2.5:
         risk += 20
@@ -16,4 +18,4 @@ def calculate_risk(transaction, user_profile):
     if transaction["device"] not in user_profile["devices"]:
         risk += 15
 
-    return risk
+    return max(risk, 0)
