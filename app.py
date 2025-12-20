@@ -6,9 +6,11 @@ from src.decision_engine import decide_action
 user_profile = {
     "countries": ["TH"],
     "merchants": ["Amazon", "Starbucks", "Netflix", "LocalMart"],
-    "avg_amount": 20,
-    "active_hours": range(7, 23)
+    "avg_amount": 30,
+    "active_hours": range(7, 23),
+    "devices": ["Mobile", "Laptop", "POS"]
 }
+
 
 df = pd.read_csv("data/transactions.csv")
 
@@ -17,6 +19,10 @@ for _, row in df.iterrows():
     risk = calculate_risk(transaction, user_profile)
     decision = decide_action(risk)
 
-    print(f"Transaction {transaction['transaction_id']} | "
-          f"Merchant: {transaction['merchant']} | "
-          f"Risk Score: {risk} | Decision: {decision}")
+    print("-" * 60)
+    print(f"Transaction ID: {transaction['transaction_id']}")
+    print(f"Merchant: {transaction['merchant']}")
+    print(f"Country: {transaction['country']}")
+    print(f"Amount: {transaction['amount']}")
+    print(f"Risk Score: {risk}")
+    print(f"Decision: {decision}")
