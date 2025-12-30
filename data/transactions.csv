@@ -3,5 +3,11 @@ transaction_id,merchant,amount,country,hour,device,platform
 2,Starbucks,5,TH,9,Mobile,App
 3,Netflix,15,TH,21,Laptop,Web
 4,LocalMart,8,TH,18,POS,POS
-5,US Parking,60,TH,2,Unknown,Web
-6,Online Casino,200,PH,3,Desktop,Web
+5,Apple,180,TH,13,Mobile,App
+6,Google,90,TH,16,Laptop,Web
+7,US Parking,60,US,2,Unknown,Web
+8,Online Casino,250,PH,3,Desktop,Web
+9,Amazon,130,TH,15,Mobile,App
+10,Apple,200,TH,14,Mobile,App
+11,Starbucks,6,TH,8,Mobile,App
+12,Random Shop,75,SG,1,Unknown,Web

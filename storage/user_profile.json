@@ -3,11 +3,16 @@
     "Amazon",
     "Starbucks",
     "Netflix",
-    "LocalMart",
-    "Google"
+    "LocalMart"
   ],
   "countries": [
     "TH"
   ],
-  "avg_amount": 50
+  "avg_amount": 48,
+  "merchant_counts": {
+    "OnlyFans": 1
+  },
+  "device_counts": {
+    "Mobile": 1
+  }
 }
