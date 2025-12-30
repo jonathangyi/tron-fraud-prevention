@@ -1,0 +1,13 @@
+{
+  "authorized_merchants": [
+    "Amazon",
+    "Starbucks",
+    "Netflix",
+    "LocalMart",
+    "Google"
+  ],
+  "countries": [
+    "TH"
+  ],
+  "avg_amount": 50
+}

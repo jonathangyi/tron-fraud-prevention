@@ -1,40 +1,48 @@
-import streamlit as st
+import streamlit as st # type: ignore
 from src.risk_engine import calculate_risk
 from src.decision_engine import decide_action
 from src.otp_service import send_otp
+from src.profile_store import load_profile, save_profile
 
 st.set_page_config(page_title="Tron Fraud Prevention", layout="centered")
 
 st.title("💳 Tron – Real-Time Fraud Prevention")
 
-# =====================
-# USER PROFILE
-# =====================
+profile = load_profile()
+
 st.sidebar.header("User Profile")
 
 authorized_merchants = st.sidebar.multiselect(
     "Authorized Merchants",
     ["Amazon", "Starbucks", "Netflix", "LocalMart", "Apple", "Google"],
-    default=["Amazon", "Starbucks", "Netflix", "LocalMart"]
+    default=profile["authorized_merchants"]
 )
 
 countries = st.sidebar.multiselect(
     "Allowed Countries",
     ["TH", "US", "SG", "JP", "PH"],
-    default=["TH"]
+    default=profile["countries"]
 )
 
-avg_amount = st.sidebar.slider("Average Spending Amount", 10, 500, 50)
+avg_amount = st.sidebar.slider(
+    "Average Spending Amount",
+    10, 500, profile["avg_amount"]
+)
 
-active_hours = range(7, 23)
-devices = ["Mobile", "Laptop", "POS"]
+if st.sidebar.button("Save Profile"):
+    save_profile({
+        "authorized_merchants": authorized_merchants,
+        "countries": countries,
+        "avg_amount": avg_amount
+    })
+    st.sidebar.success("Profile saved")
 
 user_profile = {
     "merchants": authorized_merchants,
     "countries": countries,
     "avg_amount": avg_amount,
-    "active_hours": active_hours,
-    "devices": devices
+    "active_hours": range(7, 23),
+    "devices": ["Mobile", "Laptop", "POS"]
 }
 
 # =====================
