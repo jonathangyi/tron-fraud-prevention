@@ -1,0 +1,26 @@
+transaction_id,merchant,amount,country,hour,device,platform,is_fraud,fraud_type
+1,Amazon,120,TH,14,Mobile,App,0,
+2,Starbucks,5,TH,9,Mobile,App,0,
+3,Netflix,15,TH,21,Laptop,Web,0,
+4,LocalMart,8,TH,18,POS,POS,0,
+5,Apple,180,TH,13,Mobile,App,0,
+6,Google,90,TH,16,Laptop,Web,0,
+7,US Parking,60,US,2,Unknown,Web,1,foreign_suspicious
+8,Online Casino,250,PH,3,Desktop,Web,1,high_risk_merchant
+9,Amazon,130,TH,15,Mobile,App,0,
+10,Apple,200,TH,14,Mobile,App,0,
+11,Starbucks,6,TH,8,Mobile,App,0,
+12,Random Shop,75,SG,1,Unknown,Web,1,foreign_unusual_time
+13,Amazon,50,TH,10,Mobile,App,0,
+14,LocalMart,12,TH,19,POS,POS,0,
+15,Luxury Watch Store,3500,TH,14,Mobile,App,1,high_amount
+16,Netflix,15,TH,22,Laptop,Web,0,
+17,Gas Station Nigeria,80,NG,4,Unknown,Web,1,foreign_suspicious
+18,Starbucks,5,TH,8,Mobile,App,0,
+19,Crypto Exchange,1200,TH,3,Desktop,Web,1,high_risk_merchant
+20,Amazon,95,TH,15,Mobile,App,0,
+21,Apple Store,220,TH,13,Laptop,Web,0,
+22,Unknown Merchant XYZ,450,VN,2,Tablet,Web,1,foreign_new_device
+23,Google,85,TH,16,Laptop,Web,0,
+24,Starbucks,6,TH,9,Mobile,App,0,
+25,LocalMart,15,TH,18,POS,POS,0,

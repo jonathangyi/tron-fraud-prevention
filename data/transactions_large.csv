@@ -1,0 +1,151 @@
+transaction_id,merchant,amount,country,hour,device,platform,is_fraud,fraud_type
+1,Amazon,120,TH,14,Mobile,App,0,
+2,Starbucks,5,TH,9,Mobile,App,0,
+3,Netflix,15,TH,21,Laptop,Web,0,
+4,LocalMart,8,TH,18,POS,POS,0,
+5,Apple,180,TH,13,Mobile,App,0,
+6,Google,90,TH,16,Laptop,Web,0,
+7,US Parking,60,US,2,Unknown,Web,1,foreign_suspicious
+8,Online Casino,250,PH,3,Desktop,Web,1,high_risk_merchant
+9,Amazon,130,TH,15,Mobile,App,0,
+10,Apple,200,TH,14,Mobile,App,0,
+11,Starbucks,6,TH,8,Mobile,App,0,
+12,Random Shop,75,SG,1,Unknown,Web,1,foreign_unusual_time
+13,Amazon,50,TH,10,Mobile,App,0,
+14,LocalMart,12,TH,19,POS,POS,0,
+15,Luxury Watch Store,3500,TH,14,Mobile,App,1,high_amount
+16,Netflix,15,TH,22,Laptop,Web,0,
+17,Gas Station Nigeria,80,NG,4,Unknown,Web,1,foreign_suspicious
+18,Starbucks,5,TH,8,Mobile,App,0,
+19,Crypto Exchange,1200,TH,3,Desktop,Web,1,high_risk_merchant
+20,Amazon,95,TH,15,Mobile,App,0,
+21,Apple Store,220,TH,13,Laptop,Web,0,
+22,Unknown Merchant XYZ,450,VN,2,Tablet,Web,1,foreign_new_device
+23,Google,85,TH,16,Laptop,Web,0,
+24,Starbucks,6,TH,9,Mobile,App,0,
+25,LocalMart,15,TH,18,POS,POS,0,
+26,7-Eleven,25,TH,7,Mobile,App,0,
+27,McDonald's,35,TH,12,Mobile,App,0,
+28,Grab,150,TH,20,Mobile,App,0,
+29,Shopee,280,TH,19,Mobile,App,0,
+30,Lazada,420,TH,14,Laptop,Web,0,
+31,Shell Gas,800,TH,8,POS,POS,0,
+32,Tesco Lotus,1200,TH,17,POS,POS,0,
+33,Big C,350,TH,16,POS,POS,0,
+34,Central World,890,TH,15,POS,POS,0,
+35,Siam Paragon,1500,TH,13,POS,POS,0,
+36,Terminal 21,450,TH,14,Mobile,App,0,
+37,MBK Center,320,TH,18,Mobile,App,0,
+38,The Mall,670,TH,16,Laptop,Web,0,
+39,Tops Supermarket,180,TH,19,POS,POS,0,
+40,Villa Market,250,TH,10,POS,POS,0,
+41,FamilyMart,45,TH,22,Mobile,App,0,
+42,Netflix,15,TH,21,Laptop,Web,0,
+43,Spotify,150,TH,11,Mobile,App,0,
+44,YouTube Premium,180,TH,20,Laptop,Web,0,
+45,Disney Plus,280,TH,19,Mobile,App,0,
+46,Amazon,110,TH,15,Mobile,App,0,
+47,eBay,340,TH,16,Laptop,Web,0,
+48,AliExpress,180,TH,14,Mobile,App,0,
+49,Zalora,560,TH,20,Laptop,Web,0,
+50,Pomelo,890,TH,18,Mobile,App,0,
+51,Mysterious Shop RU,2500,RU,3,Unknown,Web,1,foreign_high_amount
+52,Bitcoin ATM,5000,TH,2,Unknown,POS,1,crypto_unusual_time
+53,Offshore Gambling,1800,MT,4,Desktop,Web,1,high_risk_merchant
+54,Unknown Payment CN,950,CN,1,Tablet,Web,1,foreign_unusual_time
+55,Forex Trading,3200,CY,3,Desktop,Web,1,high_risk_merchant
+56,Luxury Goods DE,4500,DE,2,Unknown,Web,1,foreign_high_amount
+57,Gold Dealer,6000,AE,4,Unknown,Web,1,foreign_high_amount
+58,Wine Shop FR,2200,FR,1,Desktop,Web,1,foreign_unusual_time
+59,Investment Scheme,8000,BVI,3,Unknown,Web,1,high_risk_merchant
+60,Electronics RU,3500,RU,2,Tablet,Web,1,foreign_high_amount
+61,Grab,120,TH,19,Mobile,App,0,
+62,Foodpanda,85,TH,20,Mobile,App,0,
+63,LINE MAN,95,TH,12,Mobile,App,0,
+64,Robinhood,180,TH,21,Mobile,App,0,
+65,KFC,120,TH,18,Mobile,App,0,
+66,Pizza Hut,340,TH,19,POS,POS,0,
+67,Dairy Queen,85,TH,15,Mobile,App,0,
+68,Burger King,110,TH,13,Mobile,App,0,
+69,Subway,95,TH,12,Mobile,App,0,
+70,Dunkin Donuts,65,TH,8,Mobile,App,0,
+71,Black Canyon,180,TH,14,POS,POS,0,
+72,After You,220,TH,16,Mobile,App,0,
+73,S&P,150,TH,11,POS,POS,0,
+74,Au Bon Pain,195,TH,10,Mobile,App,0,
+75,The Coffee Club,170,TH,9,POS,POS,0,
+76,True Coffee,85,TH,8,Mobile,App,0,
+77,Cafe Amazon,55,TH,7,Mobile,App,0,
+78,Inthanin,45,TH,8,Mobile,App,0,
+79,Watsons,340,TH,17,POS,POS,0,
+80,Boots,280,TH,16,POS,POS,0,
+81,Scam Website,1500,NG,3,Unknown,Web,1,phishing
+82,Fake Charity,800,KE,2,Desktop,Web,1,scam
+83,Prize Scam,2200,PK,4,Unknown,Web,1,phishing
+84,Tech Support Scam,950,IN,1,Desktop,Web,1,scam
+85,Romance Scam,3400,GH,3,Tablet,Web,1,scam
+86,Guardian,420,TH,15,POS,POS,0,
+87,Eveandboy,680,TH,18,Mobile,App,0,
+88,Sephora,1200,TH,17,POS,POS,0,
+89,MAC Cosmetics,890,TH,16,Mobile,App,0,
+90,Boots,340,TH,14,POS,POS,0,
+91,Uniqlo,850,TH,15,POS,POS,0,
+92,H&M,560,TH,16,Mobile,App,0,
+93,Zara,1200,TH,17,POS,POS,0,
+94,CPS Chaps,780,TH,14,Mobile,App,0,
+95,Jaspal,1400,TH,18,POS,POS,0,
+96,CC Double O,920,TH,16,Mobile,App,0,
+97,Lyn,680,TH,15,POS,POS,0,
+98,Adidas,1100,TH,17,POS,POS,0,
+99,Nike,1350,TH,16,Mobile,App,0,
+100,Converse,890,TH,15,POS,POS,0,
+101,Vans,780,TH,14,Mobile,App,0,
+102,Puma,650,TH,13,POS,POS,0,
+103,Reebok,720,TH,16,Mobile,App,0,
+104,New Balance,980,TH,17,POS,POS,0,
+105,Skechers,850,TH,15,Mobile,App,0,
+106,Dark Web Market,4500,Unknown,2,Unknown,Web,1,illegal_marketplace
+107,Money Mule Service,2800,BG,3,Desktop,Web,1,money_laundering
+108,Card Testing Site,150,RO,4,Unknown,Web,1,card_testing
+109,Account Takeover,3200,UA,1,Tablet,Web,1,account_fraud
+110,Identity Theft,5500,MD,2,Unknown,Web,1,identity_fraud
+111,SF Cinema,340,TH,20,Mobile,App,0,
+112,Major Cineplex,380,TH,19,Mobile,App,0,
+113,Paragon Cineplex,420,TH,21,POS,POS,0,
+114,TRUE IMAX,560,TH,18,Mobile,App,0,
+115,House RCA,280,TH,22,Mobile,App,0,
+116,Fitness First,1500,TH,6,Mobile,App,0,
+117,Virgin Active,1800,TH,7,Mobile,App,0,
+118,Jetts Fitness,890,TH,6,Mobile,App,0,
+119,Yoga Elements,1200,TH,19,Mobile,App,0,
+120,Barry's Bootcamp,1600,TH,7,Mobile,App,0,
+121,Suspicious Electronics,3800,BY,3,Unknown,Web,1,high_risk_merchant
+122,Replica Goods,1200,CN,2,Desktop,Web,1,counterfeit
+123,Pharma No RX,2400,IN,4,Unknown,Web,1,illegal_goods
+124,VPN Scam Service,450,PA,1,Tablet,Web,1,scam
+125,MLM Pyramid,5600,MY,3,Desktop,Web,1,pyramid_scheme
+126,Tops Market,280,TH,18,POS,POS,0,
+127,MaxValu,340,TH,17,POS,POS,0,
+128,Gourmet Market,890,TH,16,POS,POS,0,
+129,Foodland,420,TH,15,POS,POS,0,
+130,Rim Ping,560,TH,19,POS,POS,0,
+131,Makro,1800,TH,10,POS,POS,0,
+132,Lotus's,1200,TH,11,POS,POS,0,
+133,Big C Extra,950,TH,12,POS,POS,0,
+134,Central Food Hall,780,TH,17,POS,POS,0,
+135,The Emporium,2200,TH,16,POS,POS,0,
+136,EmQuartier,1950,TH,15,Mobile,App,0,
+137,IconSiam,2800,TH,14,POS,POS,0,
+138,Siam Center,1100,TH,18,Mobile,App,0,
+139,Siam Discovery,1600,TH,17,POS,POS,0,
+140,CentralWorld,1400,TH,16,Mobile,App,0,
+141,Ponzi Investment,12000,VG,2,Unknown,Web,1,investment_fraud
+142,Pump and Dump,8500,KY,3,Desktop,Web,1,securities_fraud
+143,Loan Shark App,4200,PH,1,Mobile,App,1,predatory_lending
+144,Fake Refund,1800,BD,4,Unknown,Web,1,refund_scam
+145,Wire Transfer Scam,9500,NG,2,Desktop,Web,1,wire_fraud
+146,CP Freshmart,320,TH,9,POS,POS,0,
+147,Lawson 108,65,TH,22,Mobile,App,0,
+148,Tesco Express,180,TH,21,POS,POS,0,
+149,Mini Big C,240,TH,20,Mobile,App,0,
+150,Jiffy,95,TH,23,Mobile,App,0,

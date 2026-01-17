@@ -8,11 +8,22 @@
   "countries": [
     "TH"
   ],
-  "avg_amount": 48,
+  "avg_amount": 251,
   "merchant_counts": {
-    "OnlyFans": 1
+    "Amazon": 7,
+    "Starbucks": 7,
+    "Netflix": 5,
+    "LocalMart": 3,
+    "Apple": 2,
+    "Google": 2,
+    "Luxury Watch Store": 1,
+    "Crypto Exchange": 1,
+    "Apple Store": 1
   },
   "device_counts": {
-    "Mobile": 1
+    "Mobile": 16,
+    "Laptop": 8,
+    "POS": 5,
+    "Desktop": 1
   }
 }
